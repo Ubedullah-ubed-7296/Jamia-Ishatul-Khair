@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+## [Jamia Ishatul Khair-website](https://https://jamia-ishatul-khair.netlify.app//)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,4 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # Jamia-Ishatul-Khair
->>>>>>> 7a10eeeb79c53be5863a55baebe5f31638a98255
+
+## Contact
+For any questions, feel free to reach out:
+- Email: [ubedullah192@gmail.com](ubedullah192@gmail.com)
