@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@layer base {
+    :root {
+        --background: 32 14% 97%;
+        --foreground: 0 0% 10%;
+        --card: 0 0% 100%;
+        --card-foreground: 0 0% 10%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 0 0% 10%;
+        --primary: 152 89% 15%;
+        --primary-foreground: 32 14% 97%;
+        --secondary: 45 78% 53%;
+        --secondary-foreground: 0 0% 10%;
+        --muted: 0 0% 94%;
+        --muted-foreground: 0 0% 45%;
+        --accent: 127 48% 95%;
+        --accent-foreground: 152 89% 15%;
+        --destructive: 0 84% 60%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 210 25% 88%;
+        --input: 210 25% 88%;
+        --ring: 152 89% 15%;
+        --radius: 0.75rem;
+    }
+    
+    .dark {
+        --background: 160 72% 9%;
+        --foreground: 32 14% 97%;
+        --card: 160 72% 9%;
+        --card-foreground: 32 14% 97%;
+        --popover: 160 72% 9%;
+        --popover-foreground: 32 14% 97%;
+        --primary: 152 76% 55%;
+        --primary-foreground: 0 0% 10%;
+        --secondary: 45 100% 50%;
+        --secondary-foreground: 0 0% 10%;
+        --muted: 160 72% 18%;
+        --muted-foreground: 0 0% 64%;
+        --accent: 160 72% 18%;
+        --accent-foreground: 32 14% 97%;
+        --destructive: 0 62% 31%;
+        --destructive-foreground: 32 14% 97%;
+        --border: 0 0% 15%;
+        --input: 160 72% 18%;
+        --ring: 152 76% 55%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+.heading-font {
+    font-family: 'Amiri', serif;
+}
+
+.urdu-font {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.body-font {
+    font-family: 'Inter', sans-serif;
+}
+
+[dir="rtl"] {
+    direction: rtl;
+}
+
+[dir="ltr"] {
+    direction: ltr;
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-top-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}
