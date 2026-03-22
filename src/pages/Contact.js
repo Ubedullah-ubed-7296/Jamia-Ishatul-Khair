@@ -181,7 +181,7 @@ const Contact = () => {
                       {t(translations.contact.address_label)}
                     </h3>
                     <p className={`text-foreground/80 ${isUrdu ? 'urdu-font' : ''}`}>
-                      7J4J+242, Tayyaba Colony, Iqbal Colony, Chandrayangutta, Pallecheruvu, Borgi Aurad, Telangana – 500005
+                      8F3H+2P2, Tayyaba colony, Iqbal Colony, Chandrayangutta, Pallecheruvu, Hyderabad, Telangana 500005
                     </p>
                   </div>
                 </div>
