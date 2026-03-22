@@ -1,4 +1,4 @@
-## [Jamia Ishatul Khair-website](https://https://jamia-ishatul-khair.netlify.app/)
+## [Jamia Ishatul Khair - website](https://jamia-ishatul-khair.netlify.app/)
 
 # Getting Started with Create React App
 
